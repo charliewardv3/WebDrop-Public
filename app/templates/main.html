@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>WebDrop</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <form action="/files/upload" enctype="multipart/form-data" method="post">
+            <input type="file" id="myFile" name="files" class="custom-file-input" multiple>
+            <label for="myFile"><img class="icon" src="static/upload.png"></label>
+            <br><br>
+            <input type="submit" value="UPLOAD" id="upload_button">
+        </form>
+    </div>
+
+</body>
+</html>

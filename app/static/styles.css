@@ -1,0 +1,54 @@
+body{
+  padding-top: 50%;
+}
+
+[type="file"]{
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  white-space: nowrap;
+  width: 1px;
+}
+
+[class="success"]{
+  color: #26799A;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: arial;
+}
+
+[class="icon"] {
+  width: 80%;
+}
+
+[class="wrapper"]{
+  width:100%;
+  text-align: center;
+}
+
+[type="submit"]{
+  background-color: #26799A;
+  color: #FFFFFF;
+  border: none;
+  -webkit-border-radius: 5px;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight:bold;
+}
+
+[type="file"] + label {
+
+}
+
+[type="file"]:focus + label,
+[type="file"] + label:hover {
+  /* File upload hover state button styles */
+}
+
+[type="file"]:focus + label {
+  /* File upload focus state button styles */
+}
+
